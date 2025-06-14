@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yaroslav Belush — Фриланс</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4712/4712109.png" />
+
+  <script>
+    // Авто-режим: светлая/тёмная тема на основе предпочтений пользователя
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  </script>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100 font-sans leading-relaxed">
+
+  <!-- Хедер -->
+  <header class="bg-white dark:bg-gray-800 shadow-md sticky top-0 z-10">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Yaroslav Belush</h1>
+      <p class="text-sm text-gray-500 dark:text-gray-300">Сайты • Боты • Автоматизация</p>
+    </div>
+  </header>
+
+  <!-- Обо мне -->
+  <section class="max-w-4xl mx-auto px-6 py-12">
+    <h2 class="text-xl font-semibold mb-4">Обо мне</h2>
+    <p>
+      Привет! Меня зовут Ярослав. Я создаю функциональные и простые решения под ключ: сайты-визитки, Telegram-боты, автоматизацию и даже моды для Garry’s Mod. Использую современные инструменты (включая ChatGPT) и адаптирую каждую работу вручную под клиента.
+    </p>
+  </section>
+
+  <!-- Услуги -->
+  <section class="bg-gray-100 dark:bg-gray-800 py-12">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-xl font-semibold mb-6">Мои услуги</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-sm">
+          <h3 class="font-bold text-lg mb-2">🖥 Сайты</h3>
+          <p>Лендинги, визитки, каталоги и интерфейсы.</p>
+        </div>
+        <div class="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-sm">
+          <h3 class="font-bold text-lg mb-2">🤖 Боты</h3>
+          <p>Telegram-боты, рассылки, парсеры и AI-интеграции.</p>
+        </div>
+        <div class="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-sm">
+          <h3 class="font-bold text-lg mb-2">⚙️ Скрипты</h3>
+          <p>Автоматизация задач, полезные утилиты для ПК.</p>
+        </div>
+        <div class="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-sm">
+          <h3 class="font-bold text-lg mb-2">🎮 GMod моддинг</h3>
+          <p>Разработка и настройка Lua-модов, публикация в мастерскую.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Портфолио -->
+  <section class="max-w-4xl mx-auto px-6 py-12">
+    <h2 class="text-xl font-semibold mb-6">Примеры работ</h2>
+    <div class="grid sm:grid-cols-2 gap-6">
+      <div class="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-md">Сайт-визитка (текущий)</div>
+      <div class="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-md">Telegram-бот "Ассистент"</div>
+      <div class="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-md">Парсер курса валют</div>
+      <div class="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-md">Мод для GMod: Арбузный Бластер</div>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <footer class="bg-gray-800 text-white py-10">
+  <div class="max-w-4xl mx-auto px-6 flex flex-col md:flex-row md:justify-between">
+    
+    <!-- Контакты -->
+    <div class="md:w-1/2 mb-6 md:mb-0">
+      <h2 class="text-xl font-semibold mb-4">Контакты</h2>
+      <p class="mb-2">📍 Работаю онлайн по всему Казахстану</p>
+      <p class="mb-2">💳 Оплата: Kaspi / перевод на карту</p>
+      <p class="mb-2">📲 Telegram: 
+        <a href="https://t.me/Yarik2251" class="underline hover:text-gray-300">Yarik2251</a>
+      </p>
+    </div>
+
+    <!-- Ссылки -->
+    <div class="md:w-1/2">
+      <h3 class="text-lg font-semibold mb-2">Ссылки:</h3>
+      <ul class="space-y-1">
+        <li>🐱 GitHub: 
+          <a href="https://github.com/Bayan-225" class="underline hover:text-gray-300">github.com/Bayan-225</a>
+        </li>
+        <li>🧩 GMod Мастерская: 
+          <a href="https://steamcommunity.com/profiles/76561199151397884/myworkshopfiles/" class="underline hover:text-gray-300">Мои моды в Steam</a>
+        </li>
+        <li>💼 Страница на фрилансе: 
+          <a href="#" class="underline hover:text-gray-300">Скоро будет</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Нижний текст -->
+  <div class="max-w-4xl mx-auto px-6 mt-4">
+    <p class="text-sm text-gray-400">© 2025 Yaroslav Belush</p>
+  </div>
+</footer>
+
+
+</body>
+</html>
